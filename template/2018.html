@@ -45,17 +45,35 @@
 
         h1.heading {
             font-family: "Avenir Next", sans-serif;
+            font-weight: 300;
             margin: 0;
             color: #9E9E9E;
+            margin-bottom: 20px;
         }
 
         .container {
             display: grid;
-            grid-gap: 30px;
+            grid-gap: 50px;
             grid-template-columns: 2fr 1fr;
             margin: 50px 0;
         }
 
+        .card {
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        .card > h1 {
+            font-family: "Avenir Next", sans-serif;
+            margin: 0;
+        }
+        .card > .time {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            margin: 10px 0;
+        }
+        .card > .description {
+            font-family: sans-serif;
+            color:#757575;
+        }
     </style>
 
     <section id="header">
@@ -75,6 +93,18 @@
         <div class="container">
             <div>
                 <h1 class="heading">Working Experience</h1>
+
+                <div class="card">
+                    <h1>Tokla Project by SCB Foundation</h1>
+                    <div class="time">SINCE 2018</div>
+                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse quibusdam enim iusto neque eos dicta sequi maiores necessitatibus debitis hic assumenda a, praesentium reprehenderit, ipsum magnam cupiditate mollitia possimus!</div>
+                </div>
+
+                <div class="card">
+                    <h1>Tokla Project by SCB Foundation</h1>
+                    <div class="time">SINCE 2018</div>
+                    <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore esse quibusdam enim iusto neque eos dicta sequi maiores necessitatibus debitis hic assumenda a, praesentium reprehenderit, ipsum magnam cupiditate mollitia possimus!</div>
+                </div>
             </div>
             <div>
                 <h1 class="heading">About me.</h1>
