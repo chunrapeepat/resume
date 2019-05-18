@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chun Rapeepat - Resume</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 35px 45px;
+            font-size: 18px;
+        }
+
+        .header-container {
+            display: grid;
+            grid-gap: 100px;
+            grid-template-columns: 1fr 170px;
+        }
+
+        h1.name {
+            font-family: "Avenir Next", sans-serif;
+            font-size: 50px;
+            color: #3D5AFE;
+            margin: 0;
+        }
+        h2.bio {
+            font-family: "Avenir Next", sans-serif;
+            color: #424242;
+            font-size: 22px;
+            margin: 5px 0;
+        }
+        img.profile {
+            border-radius: 50%;
+            width: 190px;
+            height: 190px;
+            border: 10px solid #EEEEEE;
+            transform: translateX(-50px);
+        }
+        span.motto {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            font-size: 20px;
+            display: block;
+            margin-top: 20px;
+        }
+
+        h1.heading {
+            font-family: "Avenir Next", sans-serif;
+            font-weight: 300;
+            margin: 0;
+            color: #9E9E9E;
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: grid;
+            grid-gap: 50px;
+            grid-template-columns: 2fr 1fr;
+            margin-top: 20px;
+        }
+
+        .card {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        .card > h1 {
+            font-family: "Avenir Next", sans-serif;
+            margin: 0;
+        }
+        .card > .tag {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            margin: 10px 0;
+        }
+        .card > .description {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            color: black;
+        }
+
+        .contact-grid {
+            margin-bottom: 15px;
+            display: grid;
+            grid-template-columns: 100px 3fr;
+        }
+        .contact-grid b {
+            font-family: "Avenir Next", sans-serif;
+        }
+        .contact-grid span {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            color:#464545;
+        }
+
+        .skill-card {
+            margin-bottom: 15px;
+        }
+        .skill-card b {
+            font-family: "Avenir Next", sans-serif;
+            margin-right: 5px;
+        }
+        .skill-card span {
+            font-family: "FuraCode Nerd Font", sans-serif;
+            color:#464545;
+        }
+    </style>
+
+    <section id="header">
+        <div class="header-container">
+            <div>
+                <h1 class="name">Chun Rapeepat</h1>
+                <h2 class="bio">Full-stack Developer</h2>
+                <span class="motto">Hello, I'm Rapeepat Kaewprasit or Chun. The self-taught developer who enjoy creating things to make an impact on society</span>
+            </div>
+            <div>
+                <img src="images/profile.png" class="profile"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="container">
+            <div>
+                <h1 class="heading">Working Experience</h1>
+
+                <div class="card">
+                    <h1>Torkla Project #4 by SCB Foundation</h1>
+                    <div class="tag">YEAR: 2016</div>
+                    <div class="description">
+                            This is the first program in my entire life. I learned a lot about product design, working process, UI / UX, etc. The project I worked on a game called "Our Darkest Night". The game was based on Unity and I put it to sale on Steam marketplace.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h1>Teacher Assistant at CodeCampTH</h1>
+                    <div class="tag">YEAR: 2017</div>
+                    <div class="description">CodeCampTH was a famous Developer Bootcamp in Thailand for web programming, basic computer science & tools. I taught Basic data structure, Github & Frontend web development.</div>
+                </div>
+
+                <div class="card">
+                    <h1>Software Developer Internship at Acourse.io</h1>
+                    <div class="tag">YEAR: 2017</div>
+                    <div class="description">This is the first project that I worked with software development teams. The project was written in Golang. I learned a lot of techniques including Team working process, Advanced Github, Golang and Computer fundamentals.</div>
+                </div>
+
+                <div class="card">
+                    <h1>Organized Stupid Hackathon #1, #2</h1>
+                    <div class="tag">YEAR: 2017 - 2018</div>
+                    <div class="description">After founded NoobProgrammer Community, my friend come to me with an idea of Stupid Hackathon. So I started planning and finding sponsors. I made lots of friends there and met many talented programmers that later helped me organized Stupid Hackathon #2.</div>
+                </div>
+
+                <div class="card">
+                    <h1>Young Webmaster Camp #15, #16</h1>
+                    <div class="tag">YEAR: OCTOBER 2018</div>
+                    <div class="description">Worked as a developer and staff. I developed registration and grading API using NodeJS, Express and MongoDB deployed it to Google Kubernates Engine and The grading system was developed ReactJS & Redux.</div>
+                </div>
+
+                <div class="card">
+                    <h1>Organized Young Creator's Camp</h1>
+                    <div class="tag">YEAR: MARCH 2019</div>
+                    <div class="description">Young Creator's Camp (YCC) is the 3-days camp that brings students together and teaches them about the product design process and pitching skill. My roles is planning the camp outline and teaching about Design Thinking and Task management.</div>
+                </div>
+            </div>
+            <div>
+                <h1 class="heading">Education</h1>
+                <span class="motto">Studying towards a bachelor's in Computer science at Kasetsart University in Thailand</span>
+                <br><br>
+
+                <h1 class="heading">Technical Skills</h1>
+                <div class="skill-card">
+                    <b>Good</b>
+                    <span>Modern Javascript, Frontend/Backend Web Development, Java, React, Redux, NodeJS, CSS</span>
+                </div>
+                <div class="skill-card">
+                    <b>Average</b>
+                    <span>Golang, Docker, Kubernates, UNIX, C, C++, Python</span>
+                </div>
+                <div class="skill-card">
+                    <b>Interests</b>
+                    <span>UX, Blockchain, Machine Learning, Deep Learning, Functional Programming and pretty much everything about Software Development.</span>
+                </div>
+                <div class="skill-card">
+                    <b>Other Skills</b>
+                    <span>Content Writing, Reading, Teaching, Playing Guitar, Running and Community Building</span>
+                </div>
+                <br>
+
+                <h1 class="heading">Contact</h1>
+                <div class="contact-grid">
+                    <div><b>Phone</b></div>
+                    <div><span>093-952-0586 (TH)</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Email</b></div>
+                    <div><span>chunza2542@gmail.com</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Github</b></div>
+                    <div><span>github.com/chunza2542</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Facebook</b></div>
+                    <div><span>facebook.com/chun42</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Medium</b></div>
+                    <div><span>medium.com/chunza2542</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Linkedin</b></div>
+                    <div><span>linkedin.com/in/chunza2542</span></div>
+                </div>
+                <div class="contact-grid">
+                    <div><b>Address</b></div>
+                    <div><span>Bangkok, Thailand</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
